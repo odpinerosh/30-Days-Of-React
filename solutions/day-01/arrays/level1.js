@@ -48,18 +48,42 @@ itCompanies.map(e=> e.toUpperCase());
 console.log(itCompanies.slice(0, itCompanies.length-1).join(', '), 'and', itCompanies[itCompanies.length-1]+ ' are big IT companies.')
 
 //Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
-itCompanies.indexOf('IBM')
+itCompanies.indexOf('IBM') != -1 ? console.log(itCompanies[itCompanies.indexOf('IBM')]) : console.log('Company is not found');
 
+//Filter out companies which have more than one 'o' without the filter method
+const arrFiltered = [];
+for (let comp of itCompanies) {
+    let aux = 0;
+    for (let i of comp) {
+        (i === 'o' ? aux++ : 0); 
+    }
+    aux >= 2 ? arrFiltered.push(comp) : 0;
+}
+console.log(arrFiltered);
 
-Filter out companies which have more than one 'o' without the filter method
-Sort the array using sort() method
-Reverse the array using reverse() method
-Slice out the first 3 companies from the array
-Slice out the last 3 companies from the array
-Slice out the middle IT company or companies from the array
-Remove the first IT company from the array
-Remove the middle IT company or companies from the array
-Remove the last IT company from the array
-Remove all IT companies
+//Sort the array using sort() method
+itCompanies.sort();
 
-a.diaz@coempopular.com.co
+//Reverse the array using reverse() method
+itCompanies.reverse();
+
+//Slice out the first 3 companies from the array
+itCompanies.slice(0,3);
+
+//Slice out the last 3 companies from the array
+itCompanies.slice(itCompanies.length-3);
+
+//Slice out the middle IT company or companies from the array
+itCompanies.slice(Math.trunc(itCompanies.length/2),Math.trunc(itCompanies.length/2)+1);
+
+//Remove the first IT company from the array
+itCompanies.shift();
+
+//Remove the middle IT company or companies from the array
+itCompanies.splice(Math.trunc(itCompanies.length/2),1)
+//Remove the last IT company from the array
+itCompanies.pop();
+
+//Remove all IT companies
+itCompanies.splice();
+
