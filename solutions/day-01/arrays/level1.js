@@ -42,12 +42,15 @@ console.log('Last company: ', itCompanies[lastCompany]);
 console.log(itCompanies.toString());
 
 //Change each company name to uppercase one by one and print them out
-
+itCompanies.map(e=> e.toUpperCase());
 
 //Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+console.log(itCompanies.slice(0, itCompanies.length-1).join(', '), 'and', itCompanies[itCompanies.length-1]+ ' are big IT companies.')
+
+//Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+itCompanies.indexOf('IBM')
 
 
-Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
 Filter out companies which have more than one 'o' without the filter method
 Sort the array using sort() method
 Reverse the array using reverse() method
@@ -58,3 +61,5 @@ Remove the first IT company from the array
 Remove the middle IT company or companies from the array
 Remove the last IT company from the array
 Remove all IT companies
+
+a.diaz@coempopular.com.co
