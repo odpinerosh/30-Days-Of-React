@@ -86,4 +86,3 @@ itCompanies.pop();
 
 //Remove all IT companies
 itCompanies.splice();
-
