@@ -1,0 +1,17 @@
+.subs-container {
+    background-color:lightblue;
+    line-height: 3rem;
+    margin: 1.3rem auto;
+    padding: 2rem;
+    text-align: center;
+    width: 90vw;
+}
+
+.subs-h2 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.subs-p {
+    font-family: 'Montserrat';
+}

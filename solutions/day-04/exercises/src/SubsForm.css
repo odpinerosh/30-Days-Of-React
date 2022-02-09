@@ -1,0 +1,12 @@
+.subs-form {
+    column-gap: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'first last mail'
+                         '. button .';
+    justify-items: center;
+    margin: 1rem auto;
+    row-gap: 1rem;
+    width: 60vw;
+}
