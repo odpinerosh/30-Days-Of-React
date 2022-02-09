@@ -1,0 +1,25 @@
+.fe-tech {
+    width: 90vw;
+    background-color: rgb(221, 226, 230);
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.fe-tech p {
+    font-size: 2rem;
+}
+
+.img-container {
+    margin: 2rem auto;
+}
+.img-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+ .img-tech {
+     width: 10rem;
+     height: 10rem;
+     object-fit: cover;
+ }
