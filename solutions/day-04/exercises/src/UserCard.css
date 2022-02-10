@@ -1,0 +1,40 @@
+.card-container {
+    background-color:rgb(202, 207, 209);
+    line-height: 3rem;
+    margin: 1.3rem auto;
+    padding: 2rem;
+    width: 90vw;
+}
+
+.user-image {
+    border-radius: 50%;
+    height: auto;
+    width: 10rem;
+    object-fit: cover;
+}
+
+.user-name {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.user-position {
+    text-transform: capitalize;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.skills-list li {
+    line-height: 1.5rem;
+    padding: 0px 5px;
+    margin: 2px 5px 2px 0px;
+    background-color: #31CFCE;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #F8FDFD;
+}
