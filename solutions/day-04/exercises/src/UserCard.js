@@ -10,13 +10,13 @@ const UserCard = (props) => {
     return (
         <section className="card-container">
             <img src={Users.photo} alt={Users.name} className="user-image"/>
-            <p className="user-name">{Users.name}</p>
+            <h3 className="user-name">{Users.name} <span className="user-check">&#10003;</span></h3>
             <p className="user-position">{Users.position}, {Users.origin}</p>
-            <p className="user-skills"><strong>SKILLS</strong>
-                <ul className="skills-list">
-                    {skillsList}
-                </ul>
-            </p>
+            <p className="user-skills"><strong>SKILLS</strong></p>
+            <ul className="skills-list">
+                {skillsList}
+            </ul>
+            
             <p className="user-joined">Joined on {Users.joined}</p>
         </section>
     );

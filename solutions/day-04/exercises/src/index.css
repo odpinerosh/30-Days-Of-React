@@ -7,15 +7,31 @@
 html,
 body {
   height: 100%;
+  width: 100%;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     color:rgb(54, 54, 59);
+   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  max-width: 800px;
+}
+
+#root {
+  border: 1px red solid;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+
 ul li {
   list-style: none;
 }
+
 
