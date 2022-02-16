@@ -1,0 +1,33 @@
+.numgen-container {
+    font-family: 'Play', sans-serif;
+    width: 54vw;
+    margin: 0 auto;
+}
+
+.numgen-title {
+    font-family: inherit;
+    text-transform: capitalize;
+}
+
+.numgen-container ul {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 1px;
+    margin: 0;
+    padding: 0;
+    row-gap: 1px;
+}
+
+.numgen-container ul li {
+    list-style: none;
+    color: #fff;
+    width: 5rem;
+    height: 5rem;
+    place-self: center;
+    font-family: inherit;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
