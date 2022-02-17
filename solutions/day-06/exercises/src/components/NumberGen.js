@@ -16,7 +16,7 @@ const NumberGen = () => {
         <section className="numgen-container">
            <h2 className="numgen-title">number generator</h2>
            <ul>
-               <GridElement arrNumbers={arrNum} />
+               <GridElement arrNumbers={arrNum} app="numbers"/>
            </ul>
         </section>
     );

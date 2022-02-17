@@ -1,0 +1,33 @@
+.hexcolor-container {
+    font-family: 'Play', sans-serif;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.hexcolor-title {
+    font-family: inherit;
+    text-transform: capitalize;
+}
+
+.hexcolor-container ul {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 1px;
+    margin: 0;
+    padding: 0;
+    row-gap: 1px;
+}
+
+.hexcolor-container ul li {
+    list-style: none;
+    color: #fff;
+    width: 5rem;
+    height: 5rem;
+    place-self: center;
+    font-family: inherit;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
